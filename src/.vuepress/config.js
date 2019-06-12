@@ -57,7 +57,10 @@ module.exports = {
               { text: '前端规范', link: '/zh/standard/Standard.md'},
               { text: '项目流程', link: '/zh/standard/Project.md'},
               { text: '前后端交互', link: '/zh/standard/Cooperation.md'},
-              { text: '移动端兼容问题', link: '/zh/standard/Compatibility.md'}
+              { text: '移动端兼容问题', link: '/zh/standard/Compatibility.md'},
+              { text: '项目优化', link: '/zh/standard/Improve.md'},
+              { text: '浏览器缓存', link: '/zh/standard/Cache.md'},
+              { text: '单页面应用', link: '/zh/standard/Spa.md'}
             ],
           },
           {
@@ -75,6 +78,7 @@ module.exports = {
               { text: 'Vue', link: '/zh/vue/' },
               { text: 'React', link: '/zh/react/'},
               { text: '小程序', link: '/zh/miniapp/' },
+              { text: 'Webpack', link: '/zh/webpack/'},
               { text: '悦读管理后台', link: '/zh/interface/Yuedu.md'},
               { text: 'BlackMarket', link: '/zh/interface/BlackMarket.md'},
               { text: 'TouTiao', link: '/zh/interface/TouTiao.md'}
@@ -106,7 +110,7 @@ module.exports = {
             '', 'JSX', 'MVVM', 'Props', 'React生命周期', 'React组件', 'React路由', 'redux', 'redux中间件', '组件通信', '高阶组件'
           ]}],
           '/zh/miniapp/': [{title: '小程序知识点', children: [
-            '', 'wepy','WXS', 'wepy组件通信', '小程序事件', '小程序路由', '小程序组件', '小程序组件化'
+            '', 'WXS', 'wepy组件通信', '小程序事件', '小程序路由', '小程序组件', '小程序组件化'
           ]}]
         }
       }
